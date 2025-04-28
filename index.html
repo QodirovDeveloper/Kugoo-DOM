@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>KUGOO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            grey1: '#282739',
+            grey2: '#5D6C7B',
+            grey3: '#F4F7FB',
+            purple1: '#6F73EE',
+
+          },
+          fontFamily: {
+            jost: ['Jost', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="container mx-auto xl:pl-40 xl:pr-40 lg:pl-10 lg:pr-10 md:pl-2 md:pr-2 pl-1 pr-1 mt-5">
+    <div class="md:flex items-center justify-between">
+      <h1 class="font-jost text-grey1 font-semibold lg:text-[35px] md:text-[20px] text-transform uppercase">
+        Электросамокаты
+      </h1>
+      <div class="flex font-normal text-[12px] gap-3">
+        <p class="hover:bg-white border hover:border-purple1 bg-grey3 text-grey2 p-1 sm:px-[20px] sm:py-[10px] rounded-md">
+          Хиты продаж
+        </p>
+        <p class="hover:bg-white border hover:border-purple1 bg-grey3 text-grey2 p-1 sm:px-[20px] sm:py-[10px] rounded-md">
+          Для города
+        </p>
+        <p class="hover:bg-white border hover:border-purple1 bg-grey3 text-grey2 p-1 sm:px-[20px] sm:py-[10px] rounded-md">
+          Для взрослых
+        </p>
+        <p class="hover:bg-white border hover:border-purple1 bg-grey3 text-grey2 p-1 sm:px-[20px] sm:py-[10px] rounded-md">
+          Для детей
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!--
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+  -->
+  <script src="/app.js"></script>
+</body>
+
+</html>
